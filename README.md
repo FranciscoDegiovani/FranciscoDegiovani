@@ -44,6 +44,9 @@ Based in Brazil, open to remote roles
 **[SQL Practice — Chinook Database](https://github.com/FranciscoDegiovani/sql-chinook-analysis)**
 6 business-style SQL queries (joins, window functions, CTEs, subqueries) on a relational database, with tested and documented results.
 
+**[Exploratory Data Analysis — Online Retail](https://github.com/FranciscoDegiovani/python-eda-retail)**
+End-to-end EDA on real UK e-commerce transaction data (541K+ records) — revenue analysis, seasonality, outlier investigation, and data storytelling with Python and Pandas.
+
 ---
 
 ### Background
