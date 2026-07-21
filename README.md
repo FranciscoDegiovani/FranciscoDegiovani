@@ -49,6 +49,9 @@ End-to-end EDA on real UK e-commerce transaction data (541K+ records) — revenu
 
 **[RNA-seq Differential Expression Analysis — DESeq2](https://github.com/FranciscoDegiovani/rnaseq-deseq2-airway)**
 Genomics/transcriptomics analysis identifying differentially expressed genes (DESeq2, R/Bioconductor) — reproducible workflow with statistical modeling, MA-plot, volcano plot, PCA, and heatmap visualization.
+
+**[Breast Cancer Classification — Logistic Regression vs. Random Forest](https://github.com/FranciscoDegiovani/ml-classification-breast-cancer)**
+Clinical data classification (malignant/benign) with model comparison, cross-validation, and ROC/AUC evaluation — 98.2% accuracy with feature importance validated against biological expectations.
 ---
 
 ### Background
