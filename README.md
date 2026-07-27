@@ -6,7 +6,7 @@ Interested in: Data Science, Bioinformatics, Machine Learning, Data Engineering
 Currently deepening: Big Data infrastructure, cloud data architecture, predictive modeling
 Based in Brazil, open to remote roles
 
----
+--- 
 
 ### Tech Stack
 
