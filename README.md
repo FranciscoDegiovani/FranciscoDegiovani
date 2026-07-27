@@ -41,17 +41,24 @@ Based in Brazil, open to remote roles
 
 ### Featured Projects
 
-**[SQL Practice — Chinook Database](https://github.com/FranciscoDegiovani/sql-chinook-analysis)**
-6 business-style SQL queries (joins, window functions, CTEs, subqueries) on a relational database, with tested and documented results.
+**[Multi-Omics Survival Analysis — TCGA-BRCA (MOFA2)](https://github.com/FranciscoDegiovani/tcga-brca-multiomics-survival)**
+Integration of RNA-seq and DNA methylation data (866 matched patients) using MOFA2 to identify latent factors, followed by Cox regression and Kaplan-Meier analysis — two factors significantly associated with survival (p < 0.005), cross-platform pipeline (R + Python).
+
+**[Structural Bioinformatics — FOXJ1 Forkhead Domain](https://github.com/FranciscoDegiovani/foxj1-forkhead-structural-screening)**
+AlphaFold structural modeling, pocket detection, and virtual screening pipeline for a transcription factor target — molecular docking (AutoDock Vina) against a curated library of approved drugs, with visual pose validation.
+
+**[RNA-seq Differential Expression Analysis — DESeq2](https://github.com/FranciscoDegiovani/rnaseq-deseq2-airway)**
+Genomics/transcriptomics analysis identifying differentially expressed genes (DESeq2, R/Bioconductor), orchestrated as a Snakemake pipeline for full reproducibility — statistical modeling, MA-plot, volcano plot, PCA, and heatmap visualization.
+
+**[Breast Cancer Classification — Logistic Regression vs. Random Forest](https://github.com/FranciscoDegiovani/ml-classification-breast-cancer)**
+Clinical data classification (malignant/benign) with model comparison, cross-validation, and ROC/AUC evaluation — 98.2% accuracy with feature importance validated against biological expectations.
 
 **[Exploratory Data Analysis — Online Retail](https://github.com/FranciscoDegiovani/python-eda-retail)**
 End-to-end EDA on real UK e-commerce transaction data (541K+ records) — revenue analysis, seasonality, outlier investigation, and data storytelling with Python and Pandas.
 
-**[RNA-seq Differential Expression Analysis — DESeq2](https://github.com/FranciscoDegiovani/rnaseq-deseq2-airway)**
-Genomics/transcriptomics analysis identifying differentially expressed genes (DESeq2, R/Bioconductor) — reproducible workflow with statistical modeling, MA-plot, volcano plot, PCA, and heatmap visualization.
+**[SQL Practice — Chinook Database](https://github.com/FranciscoDegiovani/sql-chinook-analysis)**
+6 business-style SQL queries (joins, window functions, CTEs, subqueries) on a relational database, with tested and documented results.
 
-**[Breast Cancer Classification — Logistic Regression vs. Random Forest](https://github.com/FranciscoDegiovani/ml-classification-breast-cancer)**
-Clinical data classification (malignant/benign) with model comparison, cross-validation, and ROC/AUC evaluation — 98.2% accuracy with feature importance validated against biological expectations.
 ---
 
 ### Background
