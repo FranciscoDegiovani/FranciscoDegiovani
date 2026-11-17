@@ -41,6 +41,9 @@ Based in Brazil, open to remote roles
 
 ### Featured Projects
 
+**[Five-Year Mortality Prediction in Endometrial Cancer — TCGA-UCEC (MBA Capstone)](https://github.com/FranciscoDegiovani/tcc-mba-endometrio-ml-usp)**
+ML pipeline predicting 5-year mortality from tumor transcriptomes (10,164 genes), with explicit censoring correction (522 → 183 patients) and leakage control (SMOTE inside CV, single master split). Compares LASSO, Random Forest, XGBoost and SVM with McNemar tests and bootstrap CIs — LASSO reached AUC 0.69 with a 43-gene signature — plus a controlled AWST vs log2(TPM+1) normalization analysis.
+
 **[Multi-Omics Survival Analysis — TCGA-BRCA (MOFA2)](https://github.com/FranciscoDegiovani/tcga-brca-multiomics-survival)**
 Integration of RNA-seq and DNA methylation data (866 matched patients) using MOFA2 to identify latent factors, followed by Cox regression and Kaplan-Meier analysis — two factors significantly associated with survival (p < 0.005), cross-platform pipeline (R + Python).
 
@@ -65,7 +68,7 @@ End-to-end EDA on real UK e-commerce transaction data (541K+ records) — revenu
 
 - **M.Sc. in Bioinformatics** — University of São Paulo (FMRP-USP), 2025–2026
 - **MBA in Artificial Intelligence & Big Data** — University of São Paulo (ICMC-USP), 2025–2026
-  - Coursework: Data Science & Machine Learning · Large-scale Parallel Data Processing · Statistics with R · Neural Networks & Deep Learning · Data Governance · Cloud Infrastructure & Security · Data Visualization · Applied AI/Big Data Capstone Project
+  - Coursework: Data Science & Machine Learning · Large-scale Parallel Data Processing · Statistics with R · Neural Networks & Deep Learning · Data Governance · Cloud Infrastructure & Security · Data Visualization · [Capstone: 5-year mortality prediction in endometrial cancer](https://github.com/FranciscoDegiovani/tcc-mba-endometrio-ml-usp)
 - **B.Sc. in Biotechnology** — Federal University of Alfenas (UNIFAL), 2020–2025
 
 ---
