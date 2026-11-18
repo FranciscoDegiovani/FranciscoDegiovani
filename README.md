@@ -1,9 +1,9 @@
 ### Hi, I'm Francisco
 
-Bioinformatics M.Sc. candidate (USP) and AI & Big Data MBA student (USP), bridging molecular biology, statistics, and machine learning. I build reproducible data pipelines and apply ML to complex, high-dimensional datasets — currently focused on multi-omics cancer data (TCGA). I also have hands-on experience in structural bioinformatics, connecting genomic sequence to protein structure and function.
+Data scientist with an MBA in AI & Big Data (USP) and an M.Sc. in Bioinformatics in its final stage (USP), bridging molecular biology, statistics, machine learning and generative AI. I build reproducible data pipelines, apply ML to complex, high-dimensional datasets (currently multi-omics cancer data from TCGA) and build LLM agents grounded in real data, with their accuracy measured through automated evaluation. I also have hands-on experience in structural bioinformatics, connecting genomic sequence to protein structure and function.
 
-Interested in: Data Science, Bioinformatics, Machine Learning, Data Engineering
-Currently deepening: Big Data infrastructure, cloud data architecture, predictive modeling
+Interested in: Data Science, Generative AI & LLM Agents, Bioinformatics, Machine Learning, Data Engineering
+Currently deepening: LLM agents and RAG, LLM evaluation, cloud data architecture, predictive modeling
 Based in Brazil, open to remote roles
 
 --- 
@@ -19,6 +19,14 @@ Based in Brazil, open to remote roles
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+
+**Generative AI**
+![LLM Agents](https://img.shields.io/badge/-LLM%20Agents-5A4FCF?style=flat)
+![RAG](https://img.shields.io/badge/-RAG-0F766E?style=flat)
+![Sentence Transformers](https://img.shields.io/badge/-Sentence%20Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Gemini API](https://img.shields.io/badge/-Gemini%20API-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+- Tool calling · Retrieval-augmented generation · LLM evaluation · Guardrails · Model fallback
 
 **Structural Bioinformatics**
 ![AutoDock Vina](https://img.shields.io/badge/-AutoDock%20Vina-3C6E71?style=flat)
@@ -40,6 +48,9 @@ Based in Brazil, open to remote roles
 ---
 
 ### Featured Projects
+
+**[E-commerce AI Assistant: LLM Agent with SQL Tools and RAG](https://github.com/FranciscoDegiovani/ecommerce-ai-assistant)** · [Live demo](https://technova-assistant.streamlit.app)
+Customer-service chatbot where an LLM agent decides which tool to call: SQL queries over 5,000 real e-commerce orders (Olist), RAG over store policies with multilingual embeddings, and aggregation of real customer reviews. Evaluated with 30 automated test cases, including prompt injection and personal-data requests: 100% tool-routing accuracy. The evaluation caught a retrieval failure (95% factual accuracy); after diagnosing and fixing it, factual accuracy reached 100%. Includes retry with backoff, automatic fallback across models, input validation, and a Streamlit chat deployed online.
 
 **[Five-Year Mortality Prediction in Endometrial Cancer — TCGA-UCEC (MBA Capstone)](https://github.com/FranciscoDegiovani/tcc-mba-endometrio-ml-usp)**
 ML pipeline predicting 5-year mortality from tumor transcriptomes (10,164 genes), with explicit censoring correction (522 → 183 patients) and leakage control (SMOTE inside CV, single master split). Compares LASSO, Random Forest, XGBoost and SVM with McNemar tests and bootstrap CIs — LASSO reached AUC 0.69 with a 43-gene signature — plus a controlled AWST vs log2(TPM+1) normalization analysis.
@@ -67,7 +78,7 @@ End-to-end EDA on real UK e-commerce transaction data (541K+ records) — revenu
 ### Background
 
 - **M.Sc. in Bioinformatics** — University of São Paulo (FMRP-USP), 2025–2026
-- **MBA in Artificial Intelligence & Big Data** — University of São Paulo (ICMC-USP), 2025–2026
+- **MBA in Artificial Intelligence & Big Data** — University of São Paulo (ICMC-USP), 2025–2026 (completed)
   - Coursework: Data Science & Machine Learning · Large-scale Parallel Data Processing · Statistics with R · Neural Networks & Deep Learning · Data Governance · Cloud Infrastructure & Security · Data Visualization · [Capstone: 5-year mortality prediction in endometrial cancer](https://github.com/FranciscoDegiovani/tcc-mba-endometrio-ml-usp)
 - **B.Sc. in Biotechnology** — Federal University of Alfenas (UNIFAL), 2020–2025
 
